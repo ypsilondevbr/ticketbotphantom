@@ -1,0 +1,20 @@
+{
+  "name": "discord-ticket-system",
+  "version": "1.0.0",
+  "description": "Sistema de tickets para Discord com discord.js v14",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "better-sqlite3": "^11.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
